@@ -5,7 +5,7 @@ stage("build")
 {
 steps{
 
-echo 'building the application
+echo 'building the application...'
      }
 }
 Stage("test"){
@@ -16,7 +16,7 @@ echo 'test the application....'
 stage("deploy")
 {
 steps{
-echo 'deploy the application'
+echo 'deploy the application....'
 }
 }
 }
